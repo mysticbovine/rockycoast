@@ -29,25 +29,51 @@
   <body>
       <div class="container-fluid">
           <div class="row">
-              <div class="col-sm-6 col-lg-3">
+              <div class="col-sm-6 col-md-5 col-lg-3">
                 <header class="corner-stamp header">
                     <h1><span>rocky</span>coast</h1>
                     <h2>creative</h2>
                    
                     <div class="row contact">
-                        <div class="col-lg-12">
-                            <span class="phone">phone</span><a href="tel:16048627875">604 862 7875</a>
+                        <div class="col-xs-6">
+                            <span class="phone no-mobile">phone</span><a href="tel:16048627875">604 862 7875</a>
                         </div>
-                        <div class="col-lg-12">
-                            <span class="email">email</span><a href="mailto:rob@rockycoastcreative.ca">rob@rockycoastcreative.ca</a>
+                        <div class="col-xs-6">
+                            <span class="email no-mobile">email</span><a href="mailto:rob@rockycoastcreative.ca">rob@rockycoastcreative.ca</a>
                         </div>
                     </div>
                     
-                    <h1 class="soon">Coming soon!</h1>
-					
+                    <p class="no-mobile"><a href="https://twitter.com/#!/mysticbovine" class="twitter">Twitter</a> <a href="http://www.facebook.com/rob.evans2" class="facebook">Facebook</a> <a href="http://ca.linkedin.com/in/roblgevans" class="linkedin">Linked In</a>
+                    <nav>
+                        <div class="row filters">
+                            <div class="col-md-6 col-xs-6">
+								<div class="filter" data-filter=".bio">biography</div>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+								<div class="filter" data-filter=".cv">r&eacute;sum&eacute;</div>
+                            </div>
+                        </div>
+                        <div class="row filters">
+                            <div class="col-md-4 col-xs-4">
+								<div class="filter" data-filter=".web">websites</div>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                              
+								<div class="filter" data-filter=".logos">logos</div>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                                <div class="filter" data-filter=".communications">ads</div>
+                            </div>
+                        </div>
+                        <div class="row filters">
+                            <div class="col-lg-12 col-xs-12">
+								<div class="filter" data-filter="all">show all</div>
+                            </div>
+                        </div>
+                    </nav>
                  </header>
               </div>
-              <div class="col-sm-6 col-lg-9 hide">                  
+              <div class="col-sm-6 col-md-7 col-lg-9">                  
                   <div id="Container" class="row flex-row">
                       <div class="col-sm-12 col-md-6 col-lg-4 mix block element cv">
 						<div class="wrapper">

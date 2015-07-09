@@ -10,7 +10,8 @@ and open the template in the editor.
 
 @import url('reset.css');
 body {
-    background:url("../images/background.jpg") no-repeat scroll center top #0F0F0F;
+    background:url("../images/background.jpg") no-repeat fixed center top #0F0F0F;
+	background-size: auto;
     color:#000;
     font-family: 'Open Sans', sans-serif;
     font-size:12px;
@@ -122,6 +123,7 @@ h1 {
         box-shadow:1px 1px 2px rgba(0,0,0,0.2);
     }
     .header {
+		font-family: 'Neuton', serif;
         padding: 0 20px;
         background:#222;
         background: red;
@@ -134,6 +136,7 @@ h1 {
         height: 50px;
     }
     h2.title {
+		font-family: 'Neuton', serif;
         font-size: 30px;
         font-variant: small-caps;
         font-weight: 800;
@@ -178,7 +181,7 @@ nav {
 .corner-stamp {
     padding:20px;
 	margin: 15px 0 0;
-    background: red;
+    background: #8e1b0c;
     color:#fff;
     -moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
     -webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
@@ -215,25 +218,29 @@ nav {
         margin-top: 20px;
     }
     h1 {
-        font-weight: 800;
-        font-size: 8vw;
+        font-family: 'Neuton', serif;
+		font-weight: 800;
+        font-size: 50px;
         padding-bottom: 0;
         margin-bottom: -15px;
         letter-spacing: -0.02em;
         text-align: center;
+		 text-transform: lowercase;
         span {
             line-height:60px;
             font-weight: 300;
-            text-transform: capitalize;
+            
         }
     }
     h2 {
-        font-size:4vw;
-        font-variant: small-caps; 
+     
+		font-size:25px;
+        text-transform: lowercase; 
         font-weight: 300;
         letter-spacing: 0.05em;
         text-align: center;
         padding: 0;
+		margin-top: 5px;
     }
     p {
         text-align: center;
@@ -242,6 +249,7 @@ nav {
     }
     .contact {
         text-align: center;
+		margin-top: 5px;
         /*.col-lg-6{
             &:first-child{
                padding-right: 0;
@@ -255,6 +263,9 @@ nav {
             }
         }*/
     }
+	.soon {
+		font-size: 40px;
+	}
 }
 .block {
     margin-bottom: 10px;
@@ -614,10 +625,19 @@ p.subline {
 		display: none;
 	}
 }
+.hide {
+	display: none;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media (max-width: 768px) { 
-
+.mobile {
+		display: inherit;
+	}
+	.no-mobile {
+		display: none;
+	}
 	
 }
 /* Small devices (tablets, 768px and up) */
@@ -649,6 +669,9 @@ p.subline {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 /* body { background-color: blue;}	*/
+	body {
+		background-size: 100%;
+	}
 	.corner-stamp {
 		h1 {
 			font-size: 4vw;
