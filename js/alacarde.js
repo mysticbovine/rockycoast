@@ -6,7 +6,7 @@
 
 
 $(document).ready(function(){
-	$('.thumbs').slick();
+	//$('.thumbs').slick();
 
 	// Instantiate MixItUp:
 	$('#Container').mixItUp({

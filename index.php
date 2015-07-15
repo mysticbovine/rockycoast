@@ -43,11 +43,39 @@
                         </div>
                     </div>
                     
-                    <h1 class="soon">Coming soon!</h1>
+                    <p class="no-mobile hide"><a href="https://twitter.com/#!/mysticbovine" class="twitter">Twitter</a> <a href="http://www.facebook.com/rob.evans2" class="facebook">Facebook</a> <a href="http://ca.linkedin.com/in/roblgevans" class="linkedin">Linked In</a>
+                    <nav>
+                        
+                        <div class="row filters">
+                            <div class="col-md-4 col-xs-4">
+								<div class="filter" data-filter=".web">websites</div>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                              
+								<div class="filter" data-filter=".logos">logos</div>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                                <div class="filter" data-filter=".communications">ads</div>
+                            </div>
+                        </div>
+						<div class="row filters">
+                            <div class="col-md-6 col-xs-6">
+								<div class="filter" data-filter=".bio">about</div>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+								<div class="filter" data-filter=".cv">services</div>
+                            </div>
+                        </div>
+                        <div class="row filters">
+                            <div class="col-lg-12 col-xs-12">
+								<div class="filter" data-filter="all">show all</div>
+                            </div>
+                        </div>
+                    </nav>
 					
                  </header>
               </div>
-              <div class="col-sm-6 col-lg-9 hide">                  
+              <div class="col-sm-6 col-lg-9">                  
                   <div id="Container" class="row flex-row">
                       <div class="col-sm-12 col-md-6 col-lg-4 mix block element cv">
 						<div class="wrapper">
@@ -63,7 +91,7 @@
 									projects that exceed design and usability expectations.</p>
 								<p> <a href="data/RobEvansResume2015.pdf" class="more_link" target="_blank">Download R&eacute;sum&eacute; (PDF)</a></p>
 							</div>
-							<div class="project-descr" style="display: none">
+							<div class="project-descr nomore" style="display: none">
 									<ul>
 										<li>Comprehensive  PHP and MySQL (created some nifty code.)</li>
 										<li>Developed small (&lt; 10 page) to large (&gt; 100 page) 
@@ -194,7 +222,7 @@
 	
 	<script>
 		window.onload = function (){
-			//Adding a solid red border when the image is clicked
+			//Click on more.  Box expands and shows the project description.  "Less" link shows up.
 			$(".more").click(function() {
 				$(this).prev(".project-descr").css("display","block");
 				$(this).closest(".block").removeClass( "col-md-6 col-lg-4" ).addClass( "col-md-12 col-lg-6" );
@@ -204,7 +232,7 @@
 				
 			});
 			$(".less").click(function() {
-				$(this).prev(".project-descr").addClass( "Booo" );
+				$(this).prevAll(".project-descr").css("display","none");
 				$(this).closest(".block").removeClass( "col-md-12 col-lg-6" ).addClass( "col-md-6 col-lg-4" );
 				$(this).prev(".more").css("display","inline-block");
 				$(this).css("display","none");
