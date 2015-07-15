@@ -499,7 +499,7 @@ $portfolio = array (
 		'title' =>"MTANS",
 		'intro' =>"Website for the Massage Therapists' Association of Nova Scotia.  Has a searchable map for registered massage therapists in Nova Scotia, a customized content manager for the member details, MTANS news, classified ads and the ability for the members to submit their continuing education credits.",
 		'description' =>"",
-		'link' => "www.mtans.com",
+		'link' => "www.mtans.ca",
 		'type' => "website",
 		'tags' => 
 				array ( 
@@ -725,7 +725,7 @@ $portfolio = array (
 		'title' =>"BELLIN", 
 		'intro' =>"BELLIN sells Treasury Software and they wanted a corporate site that was multilingual and responsive, had a blog, news, videos, products and can be updated by the staff. Site was developed using Drupal 7.",
 		'description' =>"",
-		'link' => null,
+		'link' => "www.bellin.com",
 		'type' => "website",
 		'tags' => 
 				array ( 
@@ -780,7 +780,7 @@ $portfolio = array (
 		'title' =>"Take 5", 
 		'intro' =>"The Government of Nova Scotia wanted a website that would help people worried about their gambling habits. The site featured a quiz to help users develop a plan to help address their concerns and change their habits. The plan would be mailed to the user. The site also featured a calculator that let the user know now much they spent on gambling in a year. The site was to be fully responsive and developed in Drupal 7",
 		'description' =>"",
-		'link' => null,
+		'link' => "www.gamblingsupportnetwork.ca/",
 		'type' => "website",
 		'tags' => 
 				array ( 
