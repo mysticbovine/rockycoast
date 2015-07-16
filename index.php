@@ -60,10 +60,10 @@
                         </div>
 						<div class="row filters">
                             <div class="col-md-6 col-xs-6">
-								<div class="filter" data-filter=".bio">about</div>
+								<div class="filter" data-filter=".about">about</div>
                             </div>
                             <div class="col-md-6 col-xs-6">
-								<div class="filter" data-filter=".cv">services</div>
+								<div class="filter" data-filter=".services">services</div>
                             </div>
                         </div>
                         <div class="row filters">
@@ -77,14 +77,14 @@
               </div>
               <div class="col-sm-6 col-lg-9">                  
                   <div id="Container" class="row flex-row">
-                      <div class="col-sm-12 col-md-6 col-lg-4 mix block element cv">
+                      <div class="col-sm-12 col-md-6 col-lg-4 mix block element services">
 						<div class="wrapper">
 							<div class="thumbs-wrapper">
 								<div class="thumbs">
-									<img src="images/bio/resume.jpg" alt="Resume"/>
+									<img src="images/bio/services.jpg" alt="Resume"/>
 								</div>
 							</div>
-							<h2 class="title">R&eacute;sum&eacute;</h2>
+							<h2 class="title">Services</h2>
 							<div class="type" style="display:none">zero</div>
 							<div class="intro">
 								<p>12 years of experience developing strong client relationships and delivering finished 
@@ -108,18 +108,18 @@
 										<li>Extensive  knowledge of beer, wine and spirits, skilled at cool bar tricks</li>
 									</ul>
 							</div>
-							<span class="more filter" data-filter=".cv">Read more</span>
+							<span class="more filter" data-filter=".services">Read more</span>
 							<span class="less filter" data-filter="all" style="display: none;">Less</span>	
 						</div>
                       </div>
-                      <div class="col-sm-12 col-md-6 col-lg-4 mix block element bio">
+                      <div class="col-sm-12 col-md-6 col-lg-4 mix block element about">
 						  <div class="wrapper">
 							<div class="thumbs-wrapper">
 								<div class="thumbs">
-									<img src="images/bio/bio.jpg" alt="Resume"/>
+									<img src="images/bio/about.jpg" alt="About Rocky Coast Creative"/>
 								</div>
 							</div>
-							<h2 class="title">Biography</h2>
+							<h2 class="title">About</h2>
 							<div class="type" style="display:none">zero</div>
 							<div class="intro">
 								 <p><strong>Creative and skilled client-focused designer and web developer</strong> 
@@ -148,7 +148,7 @@
 									bookkeeping. Here I am - ready to bring my passion and my experience to you and your team!</p>
 							</div>
 							
-								<span class="more filter" data-filter=".bio">Read more</span>
+								<span class="more filter" data-filter=".about">Read more</span>
 								<span class="less filter" data-filter="all" style="display: none;">Less</span>							
 							
 						</div>
