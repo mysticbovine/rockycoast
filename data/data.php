@@ -828,7 +828,7 @@ $portfolio = array (
 	  ),
 	array ( 
 		'title' =>"TiGR TG-100 Product Sheet",
-		'intro' =>"MetOcean Data Systems launched a new product line aimed at the covert and surveillance market called MDS trak. This is the brochure of their first product under this line the TiGR TG-100. The tracker would be able to track globally with out boundaries.",
+		'intro' =>"MetOcean Data Systems launched a new product line aimed at the covert and surveillance market called MDStrak. This is the brochure of their first product under this line the TiGR TG-100. The tracker would be able to track globally with out boundaries.",
 		'description' =>"",
 		'link' => null,
 		'type' => "communications",
@@ -849,6 +849,63 @@ $portfolio = array (
 				),
 		'active' => "yes"
 	  ),	
+	  array ( 
+		'title' =>"What does it mean to me to be a Web Professional?",
+		'intro' =>"<p>You know those parallax images? You see them on greeting cards, promotional 
+		pieces anything where they want to make a two dimension scene look three dimensions. When 
+		you first see them it looks like a regular image. Then you turn your head and suddenly 
+		it's more than a flat image, it has depth and movement. It's almost magical. My profession 
+		is like a parallax.</p>",
+		'description' =>"<p>When I tell people what I do I am greeted with a glazed look in their 
+		eyes.  They see me as a guy sitting in front of a computer banging on keys, maybe surrounded 
+		by empty energy drink cans and action figures. They are looking at the parallax head on.</p>
+
+		<p>Then I begin to explain how I do what I do. How I take several pieces: design, art, 
+		programming, 		information, user experience, client needs and weave it all into something 
+		that you interact with and experience. Suddenly it's like they turned their head a little bit 
+		and see the whole parallax image.</p>
+
+		<p>I live for that transformation in people's eyes.  I go from being a Star Wars geek in my 
+		parent's basement to a Jedi Knight levitating rocks and robots with my mind while doing a one 
+		armed hand stand.</p>
+
+		<p>Even though I could go on for hours with metaphors (it's one of my talents) let me talk 
+		about why I love what I do.</p>
+
+		<p>My background is Hospitality. Honest. I graduated the top the 1991 class at the New 
+		Brunswick Community College in their Accommodation Food and Beverage Program. It was because of 
+		my hospitality life that I was introduced to graphic design. It's a good story I can tell when 
+		we meet. Those hospitality skills are not forgotten, I call on them when talking with clients. 
+		Whether I was selling a bottle of fine wine or a website redesign, the same skills are used.</p>
+
+		<p>I'm passionate about what I do. I'm passionate about creating, about developing, learning new 
+		skills and ways to approach a challenge. I love a challenge. Bit I love overcoming that challenge 
+		even more. </p>
+
+		<p>I want to surround myself with people who are passionate about development.  I believe everyone 
+		is a resource, everyone knows things I don't. I know things they don't. I want to share what I know. 
+		I want to learn from others things I don't know. I want to be inspired by the passion of others.</p>
+
+		<p>More metaphors here, but when a project starts it's a freshly mined hunk of rock with a rough diamond 
+		in it. Then through the work of myself and my co-workers we chisel away the rock, use our tools to form that 
+		rough diamond into something that will look beautiful on someone's finger. </p>
+
+		<p>My name is Rob Evans, I'm a web professional.</p>",
+		'link' => null,
+		'type' => "articles",
+		'tags' => 
+				array ( 
+					array ("articles","articles"),
+					array ("rob","By Rob"),
+					array ("fun","fun")
+				),
+						
+		'images' => 
+				array(
+					array ("articles/webpro.jpg", "What does it mean to me to be a Web Professional?")
+				),
+		'active' => "yes"
+	  ),
 
 );
 ?>
