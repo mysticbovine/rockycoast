@@ -7,7 +7,9 @@
 
 $(document).ready(function(){
 	//$('.thumbs').slick();
-
+	$('.carousel').carousel({
+	  interval: 0
+	})
 	// Instantiate MixItUp:
 	$('#Container').mixItUp({
 		layout: {

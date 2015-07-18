@@ -59,12 +59,16 @@
                             </div>
                         </div>
 						<div class="row filters">
-                            <div class="col-md-6 col-xs-6">
+                            <div class="col-md-4 col-xs-4">
 								<div class="filter" data-filter=".about">about</div>
                             </div>
-                            <div class="col-md-6 col-xs-6">
+                            <div class="col-md-4 col-xs-4">
 								<div class="filter" data-filter=".services">services</div>
                             </div>
+							<div class="col-md-4 col-xs-4">
+								<div class="filter" data-filter=".articles">articles</div>
+                            </div>
+							
                         </div>
                         <div class="row filters">
                             <div class="col-lg-12 col-xs-12">
@@ -153,7 +157,7 @@
 							
 						</div>
                       </div>
-                      <!-- PORTFOLIO LOOP START -->
+                     <!-- PORTFOLIO LOOP START -->
                     <?php
                         ## Load in the details ##
                         include("data/data.php");
@@ -169,17 +173,51 @@
                     <?php if ( $portfolio[$i]["active"]== "yes"){ ?>
                     <div class="col-sm-12 col-md-6 col-lg-4 mix block element <?php print $filters; ?> item<?php print $i; ?>" data-bgimage="images/portfolio/<?php print $portfolio[$i]["images"][0][0]; ?>" >
 						<div class="wrapper">
-							<div class="thumbs-wrapper">
-								<div class="thumbs">
-									<?php ## thumbnail loop ##
-										$p=0;
-										while($p < count($portfolio[$i]["images"])) { 
-												print '<img src="images/portfolio/'.$portfolio[$i]["images"][$p][0].'" alt="'.$portfolio[$i]["images"][$p][1].'"/>'; 
-												$p++; 
-										}
-									?>
-								</div>
+							<!-- Thumbnail loop -->
+							<div  id="carousel-item<?php print $i; ?>" class="carousel slide" data-ride="carousel">
+							  <!-- Indicators -->
+							  <ol class="carousel-indicators">
+								<?php ## thumbnail loop ##
+									$p=0;
+									while($p < count($portfolio[$i]["images"])) { 
+											print '<li data-target="#carousel-item$i" data-slide-to="$p"';
+											if($p == 0 ) {print 'class="active"';}
+											print '></li>'; 
+											$p++; 
+									}
+								?>
+							  </ol>
+							  
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+								<?php ## thumbnail loop ##
+									$p=0;
+									while($p < count($portfolio[$i]["images"])) { ?>
+											
+										<div class="item<?php if($p == 0 ){ print ' active';}?>">
+										  <img src="images/portfolio/<?php print $portfolio[$i]["images"][$p][0]; ?>" alt="<?php print $portfolio[$i]["title"]; ?>| <?php print $portfolio[$i]["images"][$p][1]; ?>">
+										  <div class="carousel-caption">
+											<h3><?php print $portfolio[$i]["title"]; ?></h3>
+											<p><?php print $portfolio[$i]["images"][$p][1]; ?></p>
+										  </div>
+										</div>
+										
+								<?php $p++;
+									} ?>
+
+							  </div>
+
+							  <!-- Controls -->
+							  <a class="left carousel-control" href="#carousel-item<?php print $i; ?>" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-item<?php print $i; ?>" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							  </a>
 							</div>
+							<!-- Thumbnail loop end -->
 							<h2 class="title"><?php print $portfolio[$i]["title"] ?></h2>
 							<div class="type" style="display:none"><?php print $portfolio[$i]["type"] ?></div>
 							<div class="intro"><p><?php print $portfolio[$i]["intro"] ?></p></div>
