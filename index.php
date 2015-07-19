@@ -81,11 +81,11 @@
               </div>
               <div class="col-sm-6 col-lg-9">                  
                   <div id="Container" class="row flex-row">
-                      <div class="col-sm-12 col-md-6 col-lg-4 mix block element services">
+                      <div class="col-sm-12 col-md-12 col-lg-4 mix block element services">
 						<div class="wrapper">
 							<div class="thumbs-wrapper">
 								<div class="thumbs">
-									<img src="images/bio/services.jpg" alt="Resume"/>
+									<img src="images/bio/services.jpg" alt="Services" class="img-responsive"/>
 								</div>
 							</div>
 							<h2 class="title">Services</h2>
@@ -93,7 +93,7 @@
 							<div class="intro">
 								<p>12 years of experience developing strong client relationships and delivering finished 
 									projects that exceed design and usability expectations.</p>
-								<p> <a href="data/RobEvansResume2015.pdf" class="more_link" target="_blank">Download R&eacute;sum&eacute; (PDF)</a></p>
+								
 							</div>
 							<div class="project-descr nomore" style="display: none">
 									<ul>
@@ -116,11 +116,11 @@
 							<span class="less filter" data-filter="all" style="display: none;">Less</span>	
 						</div>
                       </div>
-                      <div class="col-sm-12 col-md-6 col-lg-4 mix block element about">
+                      <div class="col-sm-12 col-md-12 col-lg-4 mix block element about">
 						  <div class="wrapper">
 							<div class="thumbs-wrapper">
 								<div class="thumbs">
-									<img src="images/bio/about.jpg" alt="About Rocky Coast Creative"/>
+									<img src="images/bio/about.jpg" alt="About Rocky Coast Creative" class="img-responsive"/>
 								</div>
 							</div>
 							<h2 class="title">About</h2>
@@ -152,7 +152,7 @@
 									bookkeeping. Here I am - ready to bring my passion and my experience to you and your team!</p>
 							</div>
 							
-								<span class="more filter" data-filter=".about">Read more</span>
+								<span class="more" data-filter=".about">Read more</span>
 								<span class="less filter" data-filter="all" style="display: none;">Less</span>							
 							
 						</div>
@@ -161,17 +161,22 @@
                     <?php
                         ## Load in the details ##
                         include("data/data.php");
-
+						
+						
+						
                         $i=0;
                         while($i < count($portfolio)) {
 
+						## Counts
+						$imagecount = count($portfolio[$i]["images"]);
+						
                         ## Build the string for Filters (tags) that will be used to sort the porjects ##
                         $filters = null;
                         $t=0;
                         while($t < count($portfolio[$i]["tags"])) { $filters .= $portfolio[$i]["tags"][$t][0]." "; $t++; }
                     ?>
                     <?php if ( $portfolio[$i]["active"]== "yes"){ ?>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mix block element <?php print $filters; ?> item<?php print $i; ?>" data-bgimage="images/portfolio/<?php print $portfolio[$i]["images"][0][0]; ?>" >
+                    <div class="col-sm-12 col-md-12 col-lg-4 mix block element <?php print $filters; ?> item<?php print $i; ?>" data-bgimage="images/portfolio/<?php print $portfolio[$i]["images"][0][0]; ?>" >
 						<div class="wrapper">
 							<!-- Thumbnail loop -->
 							<div  id="carousel-item<?php print $i; ?>" class="carousel slide" data-ride="carousel">
@@ -179,11 +184,14 @@
 							  <ol class="carousel-indicators">
 								<?php ## thumbnail loop ##
 									$p=0;
-									while($p < count($portfolio[$i]["images"])) { 
-											print '<li data-target="#carousel-item$i" data-slide-to="$p"';
-											if($p == 0 ) {print 'class="active"';}
-											print '></li>'; 
-											$p++; 
+								
+									if ($imagecount > 1){
+										while($p < count($portfolio[$i]["images"])) { 
+												print '<li data-target="#carousel-item'.$i.'" data-slide-to="'.$p.'"';
+												if($p == 0 ) {print 'class="active"';}
+												print '></li>'; 
+												$p++; 
+										}
 									}
 								?>
 							  </ol>
@@ -195,9 +203,9 @@
 									while($p < count($portfolio[$i]["images"])) { ?>
 											
 										<div class="item<?php if($p == 0 ){ print ' active';}?>">
-										  <img src="images/portfolio/<?php print $portfolio[$i]["images"][$p][0]; ?>" alt="<?php print $portfolio[$i]["title"]; ?>| <?php print $portfolio[$i]["images"][$p][1]; ?>">
-										  <div class="carousel-caption">
-											<h3><?php print $portfolio[$i]["title"]; ?></h3>
+										  <img src="images/portfolio/<?php print $portfolio[$i]["images"][$p][0]; ?>" alt="<?php print $portfolio[$i]["title"]; ?>| <?php print $portfolio[$i]["images"][$p][1]; ?>" class="img-responsive">
+										  <div class="carousel-caption" style="display:none;">
+											
 											<p><?php print $portfolio[$i]["images"][$p][1]; ?></p>
 										  </div>
 										</div>
@@ -208,6 +216,7 @@
 							  </div>
 
 							  <!-- Controls -->
+							  <?php if ($imagecount > 1){ ?>
 							  <a class="left carousel-control" href="#carousel-item<?php print $i; ?>" role="button" data-slide="prev">
 								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 								<span class="sr-only">Previous</span>
@@ -216,6 +225,7 @@
 								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 								<span class="sr-only">Next</span>
 							  </a>
+							  <?php } ?>
 							</div>
 							<!-- Thumbnail loop end -->
 							<h2 class="title"><?php print $portfolio[$i]["title"] ?></h2>
@@ -263,7 +273,7 @@
 			//Click on more.  Box expands and shows the project description.  "Less" link shows up.
 			$(".more").click(function() {
 				$(this).prev(".project-descr").css("display","block");
-				$(this).closest(".block").removeClass( "col-md-6 col-lg-4" ).addClass( "col-md-12 col-lg-6" );
+				$(this).closest(".block").removeClass( "col-md-12 col-lg-4" ).addClass( "col-md-12 col-lg-6" );
 				$(this).closest("img").css("width","auto");
 				$(this).next(".less").css("display","inline-block");
 				$(this).css("display","none");
@@ -271,7 +281,7 @@
 			});
 			$(".less").click(function() {
 				$(this).prevAll(".project-descr").css("display","none");
-				$(this).closest(".block").removeClass( "col-md-12 col-lg-6" ).addClass( "col-md-6 col-lg-4" );
+				$(this).closest(".block").removeClass( "col-md-12 col-lg-6" ).addClass( "col-md-12 col-lg-4" );
 				$(this).prev(".more").css("display","inline-block");
 				$(this).css("display","none");
 			});
