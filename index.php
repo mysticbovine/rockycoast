@@ -25,6 +25,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   </head>
   <body>
       <div class="container-fluid">
@@ -126,33 +128,30 @@
 							<h2 class="title">About</h2>
 							<div class="type" style="display:none">zero</div>
 							<div class="intro">
-								 <p><strong>Creative and skilled client-focused designer and web developer</strong> 
-									 experienced in print and web-based marketing materials for small to medium sized 
-									 businesses and organizations. 12 years of experience in developing strong client 
-									 relationships and delivering finished projects exceeding design and usability 
-									 expectations.</p>
+								 <p><strong>97%¹ of consumers use online media to research local products or services</strong> 
+									  making it very important for businesses to present a professional online presence. 
+									  It is usually the first impression a customer has of a business. A website is much 
+									  more than a collection of pages with nice photos and text joined by links. It is 
+									  an essential part of a business's market strategy.</p>
 							</div>
 							<div class="project-descr" style="display: none">
-								<h3>I didn't start down this road. </h3>
-								<p>While charming bar guests in a hotel bar, I realized that our recipe book needed an 
-									overhaul, and found myself redesigning graphics and the usability to create a successful 
-									training tool.</p>
-								<h3>&quot;I like this better than slinging drinks!&quot;</h3>
-								<p>From there, I turned myself into a sponge and absorbed anything graphic design related 
-									while working on projects for willing friends. My self-directed education paid off, and 
-									along came paying clients, impressed with  what I could do.</p>
-								<h3>A decade of growth</h3>
-								<p>In 2000, I officially launched my business:<em> &agrave; la Carde  Graphic Design</em>.   
-									10 years, 100s of happy clients, 1000s of varied projects. It's  not   just the designing - 
-									I love meeting  with clients and discussing their   needs and objectives then developing a  
-									solution to get them the results   they want.</p>
-								<h3>I'm a web professional - not a bookkeeper</h3>
-								<p>The bigger the business, the bigger the bookkeeping! The  business has demanded attention 
-									that I am not willing to give it. My heart and soul is in design and client relations not 
-									bookkeeping. Here I am - ready to bring my passion and my experience to you and your team!</p>
+								<p>Rocky Coast Creative helps small to medium sized businesses use the myriad of 
+								tools available to establish a professional online presence.</p>
+								<p>Owned by Rob Evans, Rocky Coast Creative is located in New Westminster, BC. Rob has 
+								over 15 years' experience working with businesses including real estate agents, associations, 
+								tourism companies, professional speakers, musicians and satellite data collection companies. </p>
+								<p>Rocky Coast Creative's mission is to effectively bring our client's message to their target 
+								market with professional web development and graphic design.</p>
+								<p>Our clients need to showcase themselves in a professional manner - this is why Rocky Coast 
+								Creative offers web design and graphic design. We also offer digital consulting services for 
+								those businesses who want to do it themselves. 
+								<p>Most consumer's first interaction with a business will be through their website and their 
+								decision to do business is based on that first impression.</p>
+								<p>It is Rocky Coast Creative's mission to make our clients look professional online.</p>
+								<p>¹: <a href="http://www.biakelsey.com/Company/Press-Releases/100310-Nearly-All-Consumers-Now-Use-Online-Media-to-Shop-Locally.asp" target=_blank>Nearly All Consumers (97%) Now Use Online Media to Shop Locally, According to BIA/Kelsey and ConStat</a>
 							</div>
 							
-								<span class="more" data-filter=".about">Read more</span>
+								<span class="more filter" data-filter=".about">Read more</span>
 								<span class="less filter" data-filter="all" style="display: none;">Less</span>							
 							
 						</div>
@@ -260,7 +259,8 @@
              </div>
           </div>
       </div>
-
+    </div>
+<a href="#0" class="cd-top">Top</a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -301,6 +301,7 @@ if (testEl.width() == window.innerWidth) {
 	</script>
 	
     <script type="text/javascript" src="js/alacarde.js"></script>
+	<script type="text/javascript" src="js/backtotop.js"></script>
 	<script>
 	  
 
