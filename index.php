@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     
-                    <p class="no-mobile hide"><a href="https://twitter.com/#!/mysticbovine" class="twitter">Twitter</a> <a href="http://www.facebook.com/rob.evans2" class="facebook">Facebook</a> <a href="http://ca.linkedin.com/in/roblgevans" class="linkedin">Linked In</a>
+                    <p class="no-mobile"><a href="https://twitter.com/#!/mysticbovine" class="twitter">Twitter</a> <a href="http://www.facebook.com/rob.evans2" class="facebook">Facebook</a> <a href="http://ca.linkedin.com/in/roblgevans" class="linkedin">Linked In</a>
                     <nav>
                         
                         <div class="row filters">
@@ -93,26 +93,41 @@
 							<h2 class="title">Services</h2>
 							<div class="type" style="display:none">zero</div>
 							<div class="intro">
-								<p>12 years of experience developing strong client relationships and delivering finished 
-									projects that exceed design and usability expectations.</p>
+								<p><strong>It is Rocky Coast Creative's mission to make our clients look professional online.</strong></p>
+								<p>Most consumer's first interaction with a business will be through their website and their 
+								decision to do business is based on that first impression.</p>
+								
 								
 							</div>
 							<div class="project-descr nomore" style="display: none">
+									<p><strong>WEB DEVELOPMENT:</strong> From concept to launch to ongoing maintenance. 
+									There are several different types of websites; </p>
 									<ul>
-										<li>Comprehensive  PHP and MySQL (created some nifty code.)</li>
-										<li>Developed small (&lt; 10 page) to large (&gt; 100 page) 
-											sites using Drupal 6 and 7.</li>
-										<li>Experience using jQuery, YUI, GUI, JSON, and other script 
-											libraries.</li>
-										<li>Passionate  knowledge of CSS3 - I will never use tables to 
-											layout a website again.</li>
-										<li>Experienced using latest versions of Dreamweaver,  Acrobat Pro, 
-											InDesign, Photoshop, Illustrator and the MS Office Suite.</li>
-										<li>Skilled  operation of 35 mm SLR camera (but with my Photoshop   
-											skill, even if  I forget how to use a 35 mm camera no one will know).</li>
-										<li>Problem  solving, research skills and the common sense to ask for help</li>
-										<li>Extensive  knowledge of beer, wine and spirits, skilled at cool bar tricks</li>
+										<li>a one page microsite,</li> 
+										<li>a small website to </li>
+										<li>a large CMS (Drupal or WordPress) driven site.</li>
 									</ul>
+									<p>The final price of the website will depend on the client's requirements and objectives.  
+									For example, if they require an e-commerce solution. This will be detirmined through meetings 
+									with the client and presented in the propsoal or estimate.</p>
+
+									<p><strong>GRAPHIC DESIGN:</strong> Any marketing material for the clients that includes 
+									logos, branding packages (logos, letterhead, envelopes, branding guidelines) and newsletters, 
+									brochures, signs, posters and catalogues.</p>
+
+									<p><strong>"DO IT YOURSELF DIGITAL STRATEGY" CONSULTING:</strong> For those business owners 
+									who want to do their own digital strategy Rocky Coast Creative will work with them to determine 
+									the best strategy to deliver their message to their client. Should they have a full site developed
+									 with a CMS, an HTML based site or should they use weebly.com, shopify.com or Facebook pages? 
+									 Should they invest time in social media like Twitter, Facebook, Instagram and Pintrest? The client 
+									 will be given a document outlining how to use each service to their best advantage based on 
+									 their needs and objectives.</p> 
+
+									<p><strong>"TRAINING AND SITE UPDATING/MAINTENANCE:</strong> Rocky Coast Creative will train clients 
+									to use the tools like Drupal, WordPress, Weebly, Twitter and Hootsuite effectively and efficiently.</p>
+
+									<p>Ongoing maintenance will be charged for every 10 minutes spent updating and will include adding new 
+									content, upgrading code and troubleshooting issues.</p>
 							</div>
 							<span class="more filter" data-filter=".services">Read more</span>
 							<span class="less filter" data-filter="all" style="display: none;">Less</span>	
