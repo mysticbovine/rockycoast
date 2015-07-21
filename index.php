@@ -163,6 +163,35 @@
 								<p>Most consumer's first interaction with a business will be through their website and their 
 								decision to do business is based on that first impression.</p>
 								<p>It is Rocky Coast Creative's mission to make our clients look professional online.</p>
+								<h2>Here are what peopl have said about Rob Evans the owner of Rocky Coast Creative:</h2>
+								<div class="testimonials">
+									<div class="row">
+										<div class="col-lg-6">
+											<p><span class="quote">&#8220;</span>I have hired Rob several times for multiple projects since 2000. 
+											Most of all I enjoy his creativity.
+											<br /><strong>Tim Conrad, APR</strong><br /> Entrepreneur at Butterfly Effect Communications</p>
+										</div>
+									
+										<div class="col-lg-6">
+											<p><span class="quote">&#8220;</span>High quality work and great service once again! 
+											<br /><strong>Kyle Burton</strong><br /> Marketing Coordinator, MetOcean Datasystems</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-6">
+											<p><span class="quote">&#8220;</span>Rob was always available at the drop of a hat to answer questions or 
+											put out fires. He even stayed up until 3am on a Friday evening to take care of a project for me. 
+											He is a very dedicated professional.
+											<br /><strong>Amy Corbett</strong><br /> Art Director at bits.co</p>
+										</div>
+										<div class="col-lg-6">
+											<p><span class="quote">&#8220;</span>I worked with Rob on a very complex Drupal webplatform project, of which 
+											he mastered by learning basically on his own. He uses his skills, passion and talent, combined with his many years of php and drupal experience to provide results to the bottom line. Rob never back downs from a challenge and is a team player. 
+											<br /><strong>Sandra Harper</strong><br /> Project Coordinator at NTT DATA Canada</p>
+										</div>
+									</div>	
+									
+								</div>
 								<p>¹: <a href="http://www.biakelsey.com/Company/Press-Releases/100310-Nearly-All-Consumers-Now-Use-Online-Media-to-Shop-Locally.asp" target=_blank>Nearly All Consumers (97%) Now Use Online Media to Shop Locally, According to BIA/Kelsey and ConStat</a>
 							</div>
 							
@@ -171,6 +200,7 @@
 							
 						</div>
                       </div>
+					  
                      <!-- PORTFOLIO LOOP START -->
                     <?php
                         ## Load in the details ##
