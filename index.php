@@ -50,31 +50,31 @@
                         
                         <div class="row filters">
                             <div class="col-md-4 col-xs-4">
-								<div class="filter" data-filter=".web">websites</div>
+								<div class="filter mini" data-filter=".web">websites</div>
                             </div>
                             <div class="col-md-4 col-xs-4">
                               
-								<div class="filter" data-filter=".logos">logos</div>
+								<div class="filter mini" data-filter=".logos">logos</div>
                             </div>
                             <div class="col-md-4 col-xs-4">
-                                <div class="filter" data-filter=".communications">ads</div>
+                                <div class="filter mini" data-filter=".communications">ads</div>
                             </div>
                         </div>
 						<div class="row filters">
                             <div class="col-md-4 col-xs-4">
-								<div class="filter" data-filter=".about">about</div>
+								<div class="filter mini" data-filter=".about">about</div>
                             </div>
                             <div class="col-md-4 col-xs-4">
-								<div class="filter" data-filter=".services">services</div>
+								<div class="filter mini" data-filter=".services">services</div>
                             </div>
 							<div class="col-md-4 col-xs-4">
-								<div class="filter" data-filter=".articles">articles</div>
+								<div class="filter mini" data-filter=".articles">articles</div>
                             </div>
 							
                         </div>
                         <div class="row filters">
                             <div class="col-lg-12 col-xs-12">
-								<div class="filter" data-filter="all">show all</div>
+								<div class="filter mini" data-filter="all">show all</div>
                             </div>
                         </div>
                     </nav>
@@ -257,7 +257,7 @@
 									<?php ## tag loop ##
 											$t=0;
 											while($t < count($portfolio[$i]["tags"])) {
-													print '<li><div class="filter" data-filter=".'.$portfolio[$i]["tags"][$t][0].', .header">'.$portfolio[$i]["tags"][$t][1].'</div></li>';
+													print '<li><div class="filter mini" data-filter=".'.$portfolio[$i]["tags"][$t][0].', .header">'.$portfolio[$i]["tags"][$t][1].'</div></li>';
 													$t++; 
 											} 
 									?>
@@ -288,7 +288,7 @@
 			//Click on more.  Box expands and shows the project description.  "Less" link shows up.
 			$(".more").click(function() {
 				$(this).prev(".project-descr").css("display","block");
-				$(this).closest(".block").removeClass( "col-md-12 col-lg-4" ).addClass( "col-md-12 col-lg-6" );
+				$(this).closest(".block").removeClass( "col-md-12 col-lg-4" ).addClass( "col-md-12 col-lg-8" );
 				$(this).closest("img").css("width","auto");
 				$(this).next(".less").css("display","inline-block");
 				$(this).css("display","none");
@@ -296,9 +296,16 @@
 			});
 			$(".less").click(function() {
 				$(this).prevAll(".project-descr").css("display","none");
-				$(this).closest(".block").removeClass( "col-md-12 col-lg-6" ).addClass( "col-md-12 col-lg-4" );
+				$(this).closest(".block").removeClass( "col-md-12 col-lg-8" ).addClass( "col-md-12 col-lg-4" );
 				$(this).prev(".more").css("display","inline-block");
 				$(this).css("display","none");
+			});
+			$(".mini").click(function() {
+				$("div")
+					.nextAll(".project-descr").css("display","none")
+					.closest(".block").removeClass( "col-md-12 col-lg-8" ).addClass( "col-md-12 col-lg-4" );
+				$(".more").css("display","inline-block");
+				$(".less").css("display","none");
 			});
 		}
 

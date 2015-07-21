@@ -59,6 +59,191 @@ $portfolio = array (
 		'active' => "yes"
 	  ),
 	  array ( 
+		'title' =>"BELLIN", 
+		'intro' =>"BELLIN sells Treasury Software and they wanted a corporate site that was multilingual and responsive, had a blog, news, videos, products and can be updated by the staff. Site was developed using Drupal 7.",
+		'description' =>"",
+		'link' => "www.bellin.com",
+		'type' => "website",
+		'tags' => 
+				array ( 
+					array ("web","websites"),
+					array ("drupal7","Drupal 7"),
+					array ("css","css"),
+					array ("php","php"),
+					array ("html","html"),
+					array ("responsive","responsive"),
+					array ("over100","&gt; 100 pages"),
+					array ("blog","blog"),
+					array ("news","news"),
+					array ("video","video"),
+					array ("bellin","BELLIN")
+				),
+						
+		'images' => 
+				array(
+					array ("bellin-1.jpg", "Front page close up"),
+					array ("bellin-2.jpg", "Front page"),
+					array ("bellin-3.jpg", "Inside page")
+				),
+		'active' => "yes"
+	  ),
+	array ( 
+		'title' =>"I Love Treasury", 
+		'intro' =>"BELLIN attends many tradeshows and wanted a way to show customer testimonials about their product or treasury in general. Site was developed using Drupal 7 and the staff can upload testimonials and images taken at tradeshows. The images are cropped and coloured with in Drupal.",
+		'description' =>"",
+		'link' => null,
+		'type' => "website",
+		'tags' => 
+				array ( 
+					array ("web","websites"),
+					array ("drupal7","Drupal 7"),
+					array ("css","css"),
+					array ("php","php"),
+					array ("html","html"),
+					array ("responsive","responsive"),
+					array ("medium","&gt; 10 pages &lt; 100 pages"),
+					array ("bellin","BELLIN")
+				),
+						
+		'images' => 
+				array(
+					array ("ilt-1.jpg", "Front page close up"),
+					array ("ilt-2.jpg", "Front page"),
+					array ("ilt-3.jpg", "Inside page")
+				),
+		'active' => "yes"
+	  ),
+	 array ( 
+		'title' =>"Take 5", 
+		'intro' =>"The Government of Nova Scotia wanted a website that would help people worried about their gambling habits. The site featured a quiz to help users develop a plan to help address their concerns and change their habits. The plan would be mailed to the user. The site also featured a calculator that let the user know now much they spent on gambling in a year. The site was to be fully responsive and developed in Drupal 7",
+		'description' =>"",
+		'link' => "www.gamblingsupportnetwork.ca/",
+		'type' => "website",
+		'tags' => 
+				array ( 
+					array ("web","websites"),
+					array ("drupal7","Drupal 7"),
+					array ("css","css"),
+					array ("php","php"),
+					array ("html","html"),
+					array ("responsive","responsive"),
+					array ("medium","&gt; 10 pages &lt; 100 pages"),
+					array ("government","Government of Nova Scotia")
+				),
+						
+		'images' => 
+				array(
+					array ("take5-1.jpg", "Front page"),
+					array ("take5-2.jpg", "Quiz page"),
+					array ("take5-3.jpg", "Calculator page"),
+					array ("take5-4.jpg", "Front page mobile"),
+					array ("take5-5.jpg", "Quiz page mobile")
+				),
+		'active' => "yes"
+	  ),
+	array ( 
+		'title' =>"MDS trak",
+		'intro' =>"MetOcean Data Systems launched a new product line aimed at the covert and surveillance market called MDS trak. They wanted a logo that would tie into the MetOcean brand.",
+		'description' =>"",
+		'link' => null,
+		'type' => "logos",
+		'tags' => 
+				array ( 
+					array ("illustrator","illustrator"),
+					array ("logos","logos"),
+					array ("branding","branding"),
+					array ("business","business identity"),
+					array ("metocean","MetOcean"),
+					array ("2colours","two colour")
+				),
+						
+		'images' => 
+				array(
+					array ("MDS-track-logo.jpg", "Logo")
+				),
+		'active' => "yes"
+	  ),
+	array ( 
+		'title' =>"TiGR TG-100 Product Sheet",
+		'intro' =>"MetOcean Data Systems launched a new product line aimed at the covert and surveillance market called MDStrak. This is the brochure of their first product under this line the TiGR TG-100. The tracker would be able to track globally with out boundaries.",
+		'description' =>"",
+		'link' => null,
+		'type' => "communications",
+		'tags' => 
+				array ( 
+					array ("illustrator","illustrator"),
+					array ("photoshop","photoshop"),
+					array ("communications","communications"),
+					array ("metocean","MetOcean")
+				),
+						
+		'images' => 
+				array(
+					array ("TiGR-1.jpg", "Close up"),
+					array ("TiGR-2.jpg", "Front"),
+					array ("TiGR-3.jpg", "Inside")
+					
+				),
+		'active' => "yes"
+	  ),	
+	  array ( 
+		'title' =>"What does it mean to me to be a Web Professional?",
+		'intro' =>"<p>You know those parallax images? You see them on greeting cards, promotional 
+		pieces anything where they want to make a two dimension scene look three dimensions. When 
+		you first see them it looks like a regular image. Then you turn your head and suddenly 
+		it's more than a flat image, it has depth and movement. It's almost magical. My profession 
+		is like a parallax.</p>",
+		'description' =>"<p>When I tell people what I do I am greeted with a glazed look in their 
+		eyes.  They see me as a guy sitting in front of a computer banging on keys, maybe surrounded 
+		by empty energy drink cans and action figures. They are looking at the parallax head on.</p>
+
+		<p>Then I begin to explain how I do what I do. How I take several pieces: design, art, 
+		programming, 		information, user experience, client needs and weave it all into something 
+		that you interact with and experience. Suddenly it's like they turned their head a little bit 
+		and see the whole parallax image.</p>
+
+		<p>I live for that transformation in people's eyes.  I go from being a Star Wars geek in my 
+		parent's basement to a Jedi Knight levitating rocks and robots with my mind while doing a one 
+		armed hand stand.</p>
+
+		<p>Even though I could go on for hours with metaphors (it's one of my talents) let me talk 
+		about why I love what I do.</p>
+
+		<p>My background is Hospitality. Honest. I graduated the top the 1991 class at the New 
+		Brunswick Community College in their Accommodation Food and Beverage Program. It was because of 
+		my hospitality life that I was introduced to graphic design. It's a good story I can tell when 
+		we meet. Those hospitality skills are not forgotten, I call on them when talking with clients. 
+		Whether I was selling a bottle of fine wine or a website redesign, the same skills are used.</p>
+
+		<p>I'm passionate about what I do. I'm passionate about creating, about developing, learning new 
+		skills and ways to approach a challenge. I love a challenge. Bit I love overcoming that challenge 
+		even more. </p>
+
+		<p>I want to surround myself with people who are passionate about development.  I believe everyone 
+		is a resource, everyone knows things I don't. I know things they don't. I want to share what I know. 
+		I want to learn from others things I don't know. I want to be inspired by the passion of others.</p>
+
+		<p>More metaphors here, but when a project starts it's a freshly mined hunk of rock with a rough diamond 
+		in it. Then through the work of myself and my co-workers we chisel away the rock, use our tools to form that 
+		rough diamond into something that will look beautiful on someone's finger. </p>
+
+		<p>My name is Rob Evans, I'm a web professional.</p>",
+		'link' => null,
+		'type' => "articles",
+		'tags' => 
+				array ( 
+					array ("articles","articles"),
+					array ("rob","By Rob"),
+					array ("fun","fun")
+				),
+						
+		'images' => 
+				array(
+					array ("articles/webpro.jpg", "What does it mean to me to be a Web Professional?")
+				),
+		'active' => "yes"
+	  ),
+	  array ( 
 		'title' =>"Five Knives Catering",
 		'intro' =>"A catering company started by five local chefs.",
 		'description' =>"",
@@ -721,191 +906,7 @@ $portfolio = array (
 													),
 								   'active' => "yes"
 	  ),
-	  array ( 
-		'title' =>"BELLIN", 
-		'intro' =>"BELLIN sells Treasury Software and they wanted a corporate site that was multilingual and responsive, had a blog, news, videos, products and can be updated by the staff. Site was developed using Drupal 7.",
-		'description' =>"",
-		'link' => "www.bellin.com",
-		'type' => "website",
-		'tags' => 
-				array ( 
-					array ("web","websites"),
-					array ("drupal7","Drupal 7"),
-					array ("css","css"),
-					array ("php","php"),
-					array ("html","html"),
-					array ("responsive","responsive"),
-					array ("over100","&gt; 100 pages"),
-					array ("blog","blog"),
-					array ("news","news"),
-					array ("video","video"),
-					array ("bellin","BELLIN")
-				),
-						
-		'images' => 
-				array(
-					array ("bellin-1.jpg", "Front page close up"),
-					array ("bellin-2.jpg", "Front page"),
-					array ("bellin-3.jpg", "Inside page")
-				),
-		'active' => "yes"
-	  ),
-	array ( 
-		'title' =>"I Love Treasury", 
-		'intro' =>"BELLIN attends many tradeshows and wanted a way to show customer testimonials about their product or treasury in general. Site was developed using Drupal 7 and the staff can upload testimonials and images taken at tradeshows. The images are cropped and coloured with in Drupal.",
-		'description' =>"",
-		'link' => null,
-		'type' => "website",
-		'tags' => 
-				array ( 
-					array ("web","websites"),
-					array ("drupal7","Drupal 7"),
-					array ("css","css"),
-					array ("php","php"),
-					array ("html","html"),
-					array ("responsive","responsive"),
-					array ("medium","&gt; 10 pages &lt; 100 pages"),
-					array ("bellin","BELLIN")
-				),
-						
-		'images' => 
-				array(
-					array ("ilt-1.jpg", "Front page close up"),
-					array ("ilt-2.jpg", "Front page"),
-					array ("ilt-3.jpg", "Inside page")
-				),
-		'active' => "yes"
-	  ),
-	 array ( 
-		'title' =>"Take 5", 
-		'intro' =>"The Government of Nova Scotia wanted a website that would help people worried about their gambling habits. The site featured a quiz to help users develop a plan to help address their concerns and change their habits. The plan would be mailed to the user. The site also featured a calculator that let the user know now much they spent on gambling in a year. The site was to be fully responsive and developed in Drupal 7",
-		'description' =>"",
-		'link' => "www.gamblingsupportnetwork.ca/",
-		'type' => "website",
-		'tags' => 
-				array ( 
-					array ("web","websites"),
-					array ("drupal7","Drupal 7"),
-					array ("css","css"),
-					array ("php","php"),
-					array ("html","html"),
-					array ("responsive","responsive"),
-					array ("medium","&gt; 10 pages &lt; 100 pages"),
-					array ("government","Government of Nova Scotia")
-				),
-						
-		'images' => 
-				array(
-					array ("take5-1.jpg", "Front page"),
-					array ("take5-2.jpg", "Quiz page"),
-					array ("take5-3.jpg", "Calculator page"),
-					array ("take5-4.jpg", "Front page mobile"),
-					array ("take5-5.jpg", "Quiz page mobile")
-				),
-		'active' => "yes"
-	  ),
-	array ( 
-		'title' =>"MDS trak",
-		'intro' =>"MetOcean Data Systems launched a new product line aimed at the covert and surveillance market called MDS trak. They wanted a logo that would tie into the MetOcean brand.",
-		'description' =>"",
-		'link' => null,
-		'type' => "logos",
-		'tags' => 
-				array ( 
-					array ("illustrator","illustrator"),
-					array ("logos","logos"),
-					array ("branding","branding"),
-					array ("business","business identity"),
-					array ("metocean","MetOcean"),
-					array ("2colours","two colour")
-				),
-						
-		'images' => 
-				array(
-					array ("MDS-track-logo.jpg", "Logo")
-				),
-		'active' => "yes"
-	  ),
-	array ( 
-		'title' =>"TiGR TG-100 Product Sheet",
-		'intro' =>"MetOcean Data Systems launched a new product line aimed at the covert and surveillance market called MDStrak. This is the brochure of their first product under this line the TiGR TG-100. The tracker would be able to track globally with out boundaries.",
-		'description' =>"",
-		'link' => null,
-		'type' => "communications",
-		'tags' => 
-				array ( 
-					array ("illustrator","illustrator"),
-					array ("photoshop","photoshop"),
-					array ("communications","communications"),
-					array ("metocean","MetOcean")
-				),
-						
-		'images' => 
-				array(
-					array ("TiGR-1.jpg", "Close up"),
-					array ("TiGR-2.jpg", "Front"),
-					array ("TiGR-3.jpg", "Inside")
-					
-				),
-		'active' => "yes"
-	  ),	
-	  array ( 
-		'title' =>"What does it mean to me to be a Web Professional?",
-		'intro' =>"<p>You know those parallax images? You see them on greeting cards, promotional 
-		pieces anything where they want to make a two dimension scene look three dimensions. When 
-		you first see them it looks like a regular image. Then you turn your head and suddenly 
-		it's more than a flat image, it has depth and movement. It's almost magical. My profession 
-		is like a parallax.</p>",
-		'description' =>"<p>When I tell people what I do I am greeted with a glazed look in their 
-		eyes.  They see me as a guy sitting in front of a computer banging on keys, maybe surrounded 
-		by empty energy drink cans and action figures. They are looking at the parallax head on.</p>
-
-		<p>Then I begin to explain how I do what I do. How I take several pieces: design, art, 
-		programming, 		information, user experience, client needs and weave it all into something 
-		that you interact with and experience. Suddenly it's like they turned their head a little bit 
-		and see the whole parallax image.</p>
-
-		<p>I live for that transformation in people's eyes.  I go from being a Star Wars geek in my 
-		parent's basement to a Jedi Knight levitating rocks and robots with my mind while doing a one 
-		armed hand stand.</p>
-
-		<p>Even though I could go on for hours with metaphors (it's one of my talents) let me talk 
-		about why I love what I do.</p>
-
-		<p>My background is Hospitality. Honest. I graduated the top the 1991 class at the New 
-		Brunswick Community College in their Accommodation Food and Beverage Program. It was because of 
-		my hospitality life that I was introduced to graphic design. It's a good story I can tell when 
-		we meet. Those hospitality skills are not forgotten, I call on them when talking with clients. 
-		Whether I was selling a bottle of fine wine or a website redesign, the same skills are used.</p>
-
-		<p>I'm passionate about what I do. I'm passionate about creating, about developing, learning new 
-		skills and ways to approach a challenge. I love a challenge. Bit I love overcoming that challenge 
-		even more. </p>
-
-		<p>I want to surround myself with people who are passionate about development.  I believe everyone 
-		is a resource, everyone knows things I don't. I know things they don't. I want to share what I know. 
-		I want to learn from others things I don't know. I want to be inspired by the passion of others.</p>
-
-		<p>More metaphors here, but when a project starts it's a freshly mined hunk of rock with a rough diamond 
-		in it. Then through the work of myself and my co-workers we chisel away the rock, use our tools to form that 
-		rough diamond into something that will look beautiful on someone's finger. </p>
-
-		<p>My name is Rob Evans, I'm a web professional.</p>",
-		'link' => null,
-		'type' => "articles",
-		'tags' => 
-				array ( 
-					array ("articles","articles"),
-					array ("rob","By Rob"),
-					array ("fun","fun")
-				),
-						
-		'images' => 
-				array(
-					array ("articles/webpro.jpg", "What does it mean to me to be a Web Professional?")
-				),
-		'active' => "yes"
-	  ),
+	  
 
 );
 ?>
