@@ -188,11 +188,11 @@ $portfolio = array (
 	  ),	
 	  array ( 
 		'title' =>"What does it mean to me to be a Web Professional?",
-		'intro' =>"<p>You know those parallax images? You see them on greeting cards, promotional 
+		'intro' =>"You know those parallax images? You see them on greeting cards, promotional 
 		pieces anything where they want to make a two dimension scene look three dimensions. When 
 		you first see them it looks like a regular image. Then you turn your head and suddenly 
 		it's more than a flat image, it has depth and movement. It's almost magical. My profession 
-		is like a parallax.</p>",
+		is like a parallax.",
 		'description' =>"<p>When I tell people what I do I am greeted with a glazed look in their 
 		eyes.  They see me as a guy sitting in front of a computer banging on keys, maybe surrounded 
 		by empty energy drink cans and action figures. They are looking at the parallax head on.</p>

@@ -87,7 +87,7 @@
 						<div class="wrapper">
 							<div class="thumbs-wrapper">
 								<div class="thumbs">
-									<img src="images/bio/services.jpg" alt="Services" class="img-responsive"/>
+									<img src="images/bio/services.jpg" alt="Services" class="img-responsive" width="650px" height="433px"/>
 								</div>
 							</div>
 							<h2 class="title">Services</h2>
@@ -137,7 +137,7 @@
 						  <div class="wrapper">
 							<div class="thumbs-wrapper">
 								<div class="thumbs">
-									<img src="images/bio/about.jpg" alt="About Rocky Coast Creative" class="img-responsive"/>
+									<img src="images/bio/about.jpg" alt="About Rocky Coast Creative" class="img-responsive" width="650px" height="433px"/>
 								</div>
 							</div>
 							<h2 class="title">About</h2>
@@ -232,7 +232,7 @@
 									if ($imagecount > 1){
 										while($p < count($portfolio[$i]["images"])) { 
 												print '<li data-target="#carousel-item'.$i.'" data-slide-to="'.$p.'"';
-												if($p == 0 ) {print 'class="active"';}
+												if($p == 0 ) {print ' class="active"';}
 												print '></li>'; 
 												$p++; 
 										}
@@ -247,7 +247,7 @@
 									while($p < count($portfolio[$i]["images"])) { ?>
 											
 										<div class="item<?php if($p == 0 ){ print ' active';}?>">
-										  <img src="images/portfolio/<?php print $portfolio[$i]["images"][$p][0]; ?>" alt="<?php print $portfolio[$i]["title"]; ?>| <?php print $portfolio[$i]["images"][$p][1]; ?>" class="img-responsive">
+										  <img src="images/portfolio/<?php print $portfolio[$i]["images"][$p][0]; ?>" alt="<?php print $portfolio[$i]["title"]; ?>| <?php print $portfolio[$i]["images"][$p][1]; ?>" class="img-responsive" width="650px" height="433px">
 										  <div class="carousel-caption" style="display:none;">
 											
 											<p><?php print $portfolio[$i]["images"][$p][1]; ?></p>
@@ -277,7 +277,7 @@
 							<div class="intro"><p><?php print $portfolio[$i]["intro"] ?></p></div>
 							<div style="clear:both;"></div>
 							<div class="project-descr" style="display: none">
-								<p><?php print $portfolio[$i]["description"] ?></p>
+								<?php print $portfolio[$i]["description"] ?>
 								<?php if ($portfolio[$i]["link"]) { print "Visit the site: <a href='http://".$portfolio[$i]["link"]."' class='more_link' target='_blank'>".$portfolio[$i]["link"]."</a>";}?>
 							</div>
 								<span class="more filter" data-filter=".item<?php print $i; ?>">Read more</span>
@@ -304,7 +304,7 @@
              </div>
           </div>
       </div>
-    </div>
+  
 <a href="#0" class="cd-top">Top</a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -325,10 +325,11 @@
 				
 			});
 			$(".less").click(function() {
-				$(this).prevAll(".project-descr").css("display","none");
-				$(this).closest(".block").removeClass( "col-md-12 col-lg-8" ).addClass( "col-md-12 col-lg-4" );
-				$(this).prev(".more").css("display","inline-block");
-				$(this).css("display","none");
+				$(this)
+					.prevAll(".project-descr").css("display","none")
+					.closest(".block").removeClass( "col-md-12 col-lg-8" ).addClass( "col-md-12 col-lg-4" )
+					.prev(".more").css("display","inline-block")
+					.css("display","none");
 			});
 			$(".mini").click(function() {
 				$("div")
@@ -338,24 +339,32 @@
 				$(".less").css("display","none");
 			});
 		}
-
-var testEl = $("#vw-test");
-
-testEl.css({
-  width: "100vw"
-});
-
-if (testEl.width() == window.innerWidth) {
-   //alert("SUPPORTED");
-} else {
-   //alert("NOT SUPPORTED");
-};
+		
+		$(document).ready(function(){
+			
+			//Start Carousel
+			$('.carousel').carousel({
+			  interval: 0
+			})
+			
+			// Start MixItUp:
+			$('#Container').mixItUp({
+				layout: {
+					display: 'inline-flex'
+				}
+			});
+		});
 	</script>
 	
-    <script type="text/javascript" src="js/alacarde.js"></script>
 	<script type="text/javascript" src="js/backtotop.js"></script>
 	<script>
-	  
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-65429504-1', 'auto');
+	  ga('send', 'pageview');
 
 	</script>
   </body>
