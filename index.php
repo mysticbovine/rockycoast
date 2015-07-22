@@ -350,7 +350,7 @@
 			// Start MixItUp:
 			$('#Container').mixItUp({
 				layout: {
-					display: 'inline-flex'
+					display: 'inline-block'
 				}
 			});
 		});
