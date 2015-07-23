@@ -100,34 +100,38 @@
 								
 							</div>
 							<div class="project-descr nomore" style="display: none">
-									<p><strong>WEB DEVELOPMENT:</strong> From concept to launch to ongoing maintenance. 
-									There are several different types of websites; </p>
+									<p><strong>WEB DEVELOPMENT:</strong>Concept. Launch. Maintenance<br />
+									We offer the best website for your needs. </p>
 									<ul>
 										<li>a one page microsite,</li> 
-										<li>a small website to </li>
-										<li>a large CMS (Drupal or WordPress) driven site.</li>
+										<li>minimalist site (2 to 5 pages)</li>
+										<li>full CMS site (our preferred platforms are Drupal and WordPress)</li>
 									</ul>
-									<p>The final price of the website will depend on the client's requirements and objectives.  
-									For example, if they require an e-commerce solution. This will be detirmined through meetings 
-									with the client and presented in the propsoal or estimate.</p>
+									
+									<p><strong>GRAPHIC DESIGN:</strong> Concept. Collaboration. Delivery.<br />Your brand may be represented through: 
+									<ul>
+										<li>logos,</li> 
+										<li>branding packages (logos, letterhead, envelopes, branding guidelines),</li> 
+										<li>newsletters, </li> 
+										<li>brochures,</li> 
+										<li>signs,</li>
+ 										<li>posters,</li> 
+										<li>catalogues,</li>
+										<li>and more</li></p>
 
-									<p><strong>GRAPHIC DESIGN:</strong> Any marketing material for the clients that includes 
-									logos, branding packages (logos, letterhead, envelopes, branding guidelines) and newsletters, 
-									brochures, signs, posters and catalogues.</p>
+									<p><strong>"DO IT YOURSELF DIGITAL STRATEGY" CONSULTING:</strong> 
+									Once you have a plan,  you can deliver it on your own. Let us work with you to create 
+									a comprehensive brand and digital strategy. We put all the tools in your hand and let 
+									you build your own success with it.</p> 
 
-									<p><strong>"DO IT YOURSELF DIGITAL STRATEGY" CONSULTING:</strong> For those business owners 
-									who want to do their own digital strategy Rocky Coast Creative will work with them to determine 
-									the best strategy to deliver their message to their client. Should they have a full site developed
-									 with a CMS, an HTML based site or should they use weebly.com, shopify.com or Facebook pages? 
-									 Should they invest time in social media like Twitter, Facebook, Instagram and Pintrest? The client 
-									 will be given a document outlining how to use each service to their best advantage based on 
-									 their needs and objectives.</p> 
+									<p><strong>"TRAINING AND SITE UPDATING/MAINTENANCE:</strong> Rocky Coast Creative offers 
+									training to create a long-term, cost-effective plan for success. Learn to master your website 
+									by understanding how to update your content in a timely fashion, deliver a digital strategy with tools 
+									like Hootsuite, and master sites like Weebly.</p>
 
-									<p><strong>"TRAINING AND SITE UPDATING/MAINTENANCE:</strong> Rocky Coast Creative will train clients 
-									to use the tools like Drupal, WordPress, Weebly, Twitter and Hootsuite effectively and efficiently.</p>
+									<p>For those who have enough on their plate, we offer and ongoing maintenance and updating service billed 
+									in 10 minute increments for efficient and affordable support.</p>						
 
-									<p>Ongoing maintenance will be charged for every 10 minutes spent updating and will include adding new 
-									content, upgrading code and troubleshooting issues.</p>
 							</div>
 							<span class="more filter" data-filter=".services">Read more</span>
 							<span class="less filter" data-filter="all" style="display: none;">Less</span>	
@@ -150,19 +154,16 @@
 									  an essential part of a business's market strategy.</p>
 							</div>
 							<div class="project-descr" style="display: none">
-								<p>Rocky Coast Creative helps small to medium sized businesses use the myriad of 
-								tools available to establish a professional online presence.</p>
-								<p>Owned by Rob Evans, Rocky Coast Creative is located in New Westminster, BC. Rob has 
-								over 15 years' experience working with businesses including real estate agents, associations, 
-								tourism companies, professional speakers, musicians and satellite data collection companies. </p>
-								<p>Rocky Coast Creative's mission is to effectively bring our client's message to their target 
-								market with professional web development and graphic design.</p>
-								<p>Our clients need to showcase themselves in a professional manner - this is why Rocky Coast 
-								Creative offers web design and graphic design. We also offer digital consulting services for 
-								those businesses who want to do it themselves. 
-								<p>Most consumer's first interaction with a business will be through their website and their 
-								decision to do business is based on that first impression.</p>
-								<p>It is Rocky Coast Creative's mission to make our clients look professional online.</p>
+								<p>Make sure your customers get the information they need quickly, and with the punch of a great visual presence.</p>
+								<p>Rocky Coast Creative specializes in fueling small to medium sized businesses with the digital tools 
+								for success.</p>
+								<p>Rob Evans is the imagination and sweat behind the work at Rocky Coast Creative.  Based in New
+								Westminster, BC, Rob has honed his expertise over the past 15 years working with outstanding 
+								businesses in a variety of industries.</p>
+								<p>The Rocky Coast Creative mission is to effectively bring our clients’ message to their target market
+								with professional web development and graphic design.</p>
+								<p>Let your professionalism shine online with Rocky Coast Creative.</p>
+								
 								<h2>Here are what people have said about Rob Evans the owner of Rocky Coast Creative:</h2>
 								<div class="testimonials">
 									<div class="row">

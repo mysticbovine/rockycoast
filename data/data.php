@@ -233,7 +233,7 @@ $portfolio = array (
 	  array ( 
 		'title' =>"What does it mean to me to be a Web Professional?",
 		'intro' =>"You know those parallax images? You see them on greeting cards, promotional 
-		pieces anything where they want to make a two dimension scene look three dimensions. When 
+		pieces anything where they want to make a two-dimensional scene look three-dimensional. When 
 		you first see them it looks like a regular image. Then you turn your head and suddenly 
 		it's more than a flat image, it has depth and movement. It's almost magical. My profession 
 		is like a parallax.",
@@ -242,7 +242,7 @@ $portfolio = array (
 		by empty energy drink cans and action figures. They are looking at the parallax head on.</p>
 
 		<p>Then I begin to explain how I do what I do. How I take several pieces: design, art, 
-		programming, 		information, user experience, client needs and weave it all into something 
+		programming, information, user experience, client needs and weave it all into something 
 		that you interact with and experience. Suddenly it's like they turned their head a little bit 
 		and see the whole parallax image.</p>
 
