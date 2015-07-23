@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     
-                    <p class="no-mobile"><a href="https://twitter.com/#!/mysticbovine" class="twitter">Twitter</a> <a href="http://www.facebook.com/rob.evans2" class="facebook">Facebook</a> <a href="http://ca.linkedin.com/in/roblgevans" class="linkedin">Linked In</a>
+                    
                     <nav>
                         
                         <div class="row filters">
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </nav>
-					
+					<p class="no-mobile hidden"><a href="https://twitter.com/#!/mysticbovine" class="twitter">Twitter</a> <a href="http://www.facebook.com/rob.evans2" class="facebook">Facebook</a> <a href="http://ca.linkedin.com/in/roblgevans" class="linkedin">Linked In</a>
                  </header>
               </div>
               <div class="col-sm-6 col-lg-9">                  
@@ -163,7 +163,7 @@
 								<p>Most consumer's first interaction with a business will be through their website and their 
 								decision to do business is based on that first impression.</p>
 								<p>It is Rocky Coast Creative's mission to make our clients look professional online.</p>
-								<h2>Here are what peopl have said about Rob Evans the owner of Rocky Coast Creative:</h2>
+								<h2>Here are what people have said about Rob Evans the owner of Rocky Coast Creative:</h2>
 								<div class="testimonials">
 									<div class="row">
 										<div class="col-lg-6">

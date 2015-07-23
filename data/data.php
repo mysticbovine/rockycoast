@@ -33,8 +33,13 @@ $portfolio = array (
 	  
 	  array ( 
 		'title' =>"Blue Diamond Tours", 
-		'intro' =>"Website for a local tour guide specializing in shore excursions for cruise passengers. The site features several photo galleries, a blog and customized forms.",
-		'description' =>"",
+		'intro' =>"Halifax based Blue Diamond Tours had a website that was a few years old but had a good ranking on Google. With Google Search expanding its use of mobile-friendliness as a ranking signal he wanted to make sure his website showed up in mobile searches.",
+		'description' =>"
+		<h3>Solution</h3>
+		<p>The website was rebuilt using the mobile first framework Bootstrap 3. The overall look was modernized with large striking images and easy to navigate menus.  The most important information (the tours) were featured on the homepage, so visitors could get the information they wanted faster.</p>
+
+		<h3>Result</h3>
+		<p>The site passes the Mobile-Friendly Test. Site works well in all modern browsers and mobile devices.  Bounce rate on the right has dropped almost 75% for mobile user and resulted in more contact from possible clients using the contact form.</p>",
 		'link' => "www.bluediamondtours.com",
 		'type' => "website",
 		'tags' => 
@@ -60,8 +65,20 @@ $portfolio = array (
 	  ),
 	  array ( 
 		'title' =>"BELLIN", 
-		'intro' =>"BELLIN sells Treasury Software and they wanted a corporate site that was multilingual and responsive, had a blog, news, videos, products and can be updated by the staff. Site was developed using Drupal 7.",
-		'description' =>"",
+		'intro' =>"BELLIN sells Treasury Software. They wanted a corporate site that was multilingual, 
+					fully ;responsive, with a blog, news feeds, videos and different products and service types. They
+					also wanted it to be updated by the staff.",
+		'description' =>"<h3>Solution</h3>
+						  <p>The Drupal 7 content manager system was
+							used to build the site, handle the blogs, different content types, the products
+							and services pages and the multiple languages. To keep the site
+							responsive Bootstrap 3 was used as a framework for the template. Several
+							Drupal 7 modules were used to manage the multilingual requirement</p>
+						  <h3>Result</h3>
+						  <p>The site is fully responsive in mobile
+							devices and BELLIN can easily add new content including products and services.
+							&nbsp;Currently there are two languages on the site - English and German,
+							however more languages can be added as needed.</p>",
 		'link' => "www.bellin.com",
 		'type' => "website",
 		'tags' => 
@@ -89,8 +106,23 @@ $portfolio = array (
 	  ),
 	array ( 
 		'title' =>"I Love Treasury", 
-		'intro' =>"BELLIN attends many tradeshows and wanted a way to show customer testimonials about their product or treasury in general. Site was developed using Drupal 7 and the staff can upload testimonials and images taken at tradeshows. The images are cropped and coloured with in Drupal.",
-		'description' =>"",
+		'intro' =>"BELLIN attends many trade shows to sell
+					their Treasury software. At the trade shows they encourage people to say why
+					they love BELLIN's products or treasury in general. BELLIN needed a way
+					to easily record they testimonial and upload a photo for each trade show.",
+		'description' =>"<h3>Solution</h3>
+				  <p>The site was set up using Drupal 7 to
+					manage the content and Bootstrap 3 as the layout framework. The theme was
+					dynamic depending on how many testimonials were available for each trade show.
+					Should a block in the layout have 4 smaller blocks? Or 3?
+					Or two long rectangles.</p>
+				  <p>To keep the uploaded images consistent
+					(size and colour) image processors were used to crop the image and to convert
+					the colours to gray scale. CSS was used to give some images a red hue.</p>
+				  <h3>Result</h3>
+				  <p>The website is easy to update and sort
+					testimonials depending on the trade show. BELLIN is able to upload photos from
+					the event, upload video and list upcoming trade shows that they will be at.</p>",
 		'link' => null,
 		'type' => "website",
 		'tags' => 
@@ -114,9 +146,21 @@ $portfolio = array (
 		'active' => "yes"
 	  ),
 	 array ( 
-		'title' =>"Take 5", 
-		'intro' =>"The Government of Nova Scotia wanted a website that would help people worried about their gambling habits. The site featured a quiz to help users develop a plan to help address their concerns and change their habits. The plan would be mailed to the user. The site also featured a calculator that let the user know now much they spent on gambling in a year. The site was to be fully responsive and developed in Drupal 7",
-		'description' =>"",
+		'title' =>"Gambling Support Network: Take 5", 
+		'intro' =>"The Gambling Support Network required a
+					website that would help people take the first steps to overcome their gambling
+					habits. The user would proceed through 5 steps of questions, information panels
+					and quiz. At the end, the user is given a plan that they could follow.",
+		'description' =>"<h3>Solution</h3>
+						<p>To allow more users the site was fully
+						responsive on many different mobile devices. The site was developed using the
+						Drupal 7 so the staff could add new questions, content and videos. </p>
+						<h3>Result</h3>
+						<p>The Take 5 questionnaire is fully
+						editable for the staff from adding new questions to changing the order of the
+						pages. Other tools were added to the site for the user, including a gambling
+						spending calculator, a way to contact the Gambling Support staff and personal
+						stories from people who have problems with gambling.</p>",
 		'link' => "www.gamblingsupportnetwork.ca/",
 		'type' => "website",
 		'tags' => 
@@ -203,7 +247,7 @@ $portfolio = array (
 		and see the whole parallax image.</p>
 
 		<p>I live for that transformation in people's eyes.  I go from being a Star Wars geek in my 
-		parent's basement to a Jedi Knight levitating rocks and robots with my mind while doing a one 
+		parents' basement to a Jedi Knight levitating rocks and robots with my mind while doing a one 
 		armed hand stand.</p>
 
 		<p>Even though I could go on for hours with metaphors (it's one of my talents) let me talk 
@@ -216,7 +260,7 @@ $portfolio = array (
 		Whether I was selling a bottle of fine wine or a website redesign, the same skills are used.</p>
 
 		<p>I'm passionate about what I do. I'm passionate about creating, about developing, learning new 
-		skills and ways to approach a challenge. I love a challenge. Bit I love overcoming that challenge 
+		skills and ways to approach a challenge. I love a challenge. But I love overcoming that challenge 
 		even more. </p>
 
 		<p>I want to surround myself with people who are passionate about development.  I believe everyone 
@@ -245,7 +289,7 @@ $portfolio = array (
 	  ),
 	  array ( 
 		'title' =>"Five Knives Catering",
-		'intro' =>"A catering company started by five local chefs.",
+		'intro' =>"A catering company started by five local chefs. Each knife represents the skill and experience of each chef. Together they are a team, but individually they are all sharp and honed.",
 		'description' =>"",
 		'link' => null,
 		'type' => "logos",
@@ -268,7 +312,7 @@ $portfolio = array (
 	  ),
 	  array ( 
 		'title' =>"Actra: Team Actra!",
-		'intro' =>"Advertisement used during the 'View Finders' film festival. Object was to education the parents of child actors that ACTRA, a actor's union, had a contract to protect the rights and safety of their child members. ",
+		'intro' =>"One of the many things that the actor's union, ACTRA does is make sure child actors are safe on set. They bought advertising space during the View Finders Film Festival in Halifax.",
 		'description' =>"",
 		'link' => null,
 		'type' => "communications",
@@ -291,7 +335,7 @@ $portfolio = array (
 	  ),
 	  array ( 
 		'title' =>"AnyBodyHome.ca",
-		'intro' =>"A business networking organization for home based business owners.",
+		'intro' =>"A business networking organization for home based business owners.<p></p><p></p>",
 		'description' =>"",
 		'link' => null,
 		'type' => "logos",
