@@ -278,7 +278,7 @@
 							<div style="clear:both;"></div>
 							<div class="project-descr" style="display: none">
 								<?php print $portfolio[$i]["description"] ?>
-								<?php if ($portfolio[$i]["link"]) { print "Visit the site: <a href='http://".$portfolio[$i]["link"]."' class='more_link' target='_blank'>".$portfolio[$i]["link"]."</a>";}?>
+								<?php if ($portfolio[$i]["link"]) { print "<p>Visit the site: <a href='http://".$portfolio[$i]["link"]."' class='more_link' target='_blank'>".$portfolio[$i]["link"]."</a></p>";}?>
 							</div>
 								<span class="more filter" data-filter=".item<?php print $i; ?>">Read more</span>
 								<span class="less filter" data-filter="all" style="display: none;">Less</span>	
