@@ -100,7 +100,7 @@
 								
 							</div>
 							<div class="project-descr nomore" style="display: none">
-									<p><strong>WEB DEVELOPMENT:</strong>Concept. Launch. Maintenance<br />
+									<p><strong>WEB DEVELOPMENT:</strong> Concept. Launch. Maintenance<br />
 									We offer the best website for your needs. </p>
 									<ul>
 										<li>a one page microsite,</li> 
