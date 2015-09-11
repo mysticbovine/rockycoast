@@ -129,7 +129,7 @@
 									by understanding how to update your content in a timely fashion, deliver a digital strategy with tools 
 									like Hootsuite, and master sites like Weebly.</p>
 
-									<p>For those who have enough on their plate, we offer and ongoing maintenance and updating service billed 
+									<p>For those who have enough on their plate, we offer ongoing maintenance and updating service billed 
 									in 10 minute increments for efficient and affordable support.</p>						
 
 							</div>
